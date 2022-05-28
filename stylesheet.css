@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  color: hsl(0, 0%, 100%);
+
+  font-family: 'Overpass', sans-serif;
+}
+
+/* Cards */
+.card {
+  width: 420px;
+
+  margin: 64px auto;
+  padding: 32px;
+
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 32px;
+}
+
+.card-title {
+  font-weight: 700;
+  font-size: 30px;
+  margin-top: 34px;
+}
+
+.card-desc {
+  margin: 16px 0;
+  color: hsl(216, 12%, 54%);
+}
+
+/* Rating card */
+.rating-card {
+  display: none;
+}
+
+.rating-card .image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+
+  background-color: hsl(213, 19%, 30%);
+  border-radius: 100%;
+}
+
+.rating-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px 0;
+}
+
+.rating-container > .rating-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 44px;
+  height: 44px;
+
+  background-color: hsl(213, 19%, 30%);
+  border-radius: 100%;
+}
+
+.rating-submit {
+  width: 100%;
+  padding: 12px 0;
+
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+
+  border: none;
+  border-radius: 25px;
+}
+
+
+/* Thank you card */
+.thank-you-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rating-badge {
+  padding: 2px 12px;
+
+  font-size: 12px;
+
+  background-color: hsl(213, 19%, 30%);
+  color:hsl(25, 97%, 53%);
+
+  border-radius: 40px;
+}
+
+.rating-badge > p {
+  display: inline-block;
+}
+
+.thank-you-card .card-desc {
+  text-align: center;
+}
